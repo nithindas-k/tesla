@@ -1,0 +1,328 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "poppins", sans-serif;
+  box-sizing: border-box;
+}
+body {
+  color: #fff;
+}
+.main {
+  background-image: url(tesla_files/Homepage-Model-3-Desktop-US.png);
+  width: 100%;
+  height: 645px;
+  background-position: center;
+  background-size: cover;
+}
+head {
+  width: 100%;
+  height: 100vh;
+}
+
+.ali {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.tesla img {
+  width: 120px;
+  filter: invert(1);
+}
+.heading a {
+  margin-left: 30px;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 13px;
+}
+
+.icon {
+  display: flex;
+
+  filter: invert(1);
+}
+.icon img {
+  height: 24px;
+  width: 24px;
+  margin-left: 10px;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+.text h1 {
+  font-size: 60px;
+}
+.text h3 {
+  font-size: 25px;
+}
+.text h4 {
+  margin-top: 10px;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 380px;
+  
+}
+.blue {
+  background-color: #3e6ae1;
+  border: 0;
+  width: 265px;
+  height: 40px;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: 900;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.white {
+  margin-left: 20px;
+  background-color: #ffff;
+  border: 0;
+  width: 265px;
+  height: 40px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.sec {
+  background-image: url(tesla_files/Homepage-Model-Y-Desktop-US-v2.png);
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  margin-top: 0;
+}
+.under {
+  border-bottom: 1px solid #fff;
+}
+.sec .text {
+  margin-top: 0;
+}
+
+.text .secound {
+  margin-top: 70px;
+}
+
+.three .text {
+  margin-top: 0;
+}
+
+.three {
+  background-image: url(tesla_files/Homepage-Model-X-Desktop-US.png);
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  margin-top: 0;
+}
+.text .three {
+  margin-top: 70px;
+}
+.three h4 {
+  font-size: 25px;
+  margin-top: 0;
+}
+.three h1 {
+  font-size: 55px;
+}
+.three .small {
+  font-size: 10px;
+  position: relative;
+  bottom: 3px;
+  right: 0px;
+}
+.three h3 {
+  font-size: 17px;
+}
+
+.three .after {
+  font-size: 15px;
+}
+.four {
+  background-image: url(tesla_files/Homepage-Model-S-Desktop-US.png);
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  margin-top: 0;
+}
+
+.four .text {
+  margin-top: 0px;
+}
+.text .model {
+  font-size: 10px;
+  position: relative;
+  right: 7px;
+  bottom: 5px;
+}
+.four h4 {
+  font-size: 26px;
+}
+.four h1 {
+  font-size: 53px;
+}
+.four h3 {
+  font-size: 17px;
+}
+
+
+
+.five .text {
+  margin-top: 0;
+}
+.five {
+  background-image: url(tesla_files/Homepage-Cybertruck-Desktop.jpg);
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  margin-top: 0;
+}
+
+.china {
+ margin-top: 80px;
+  height: 126px;
+  width: 450px;
+  
+ 
+}
+
+.five .blue{
+    background-color:#111111;
+   border-top: 4px solid #a1a2a5;
+    color: #a1a2a5;
+    border-radius: 0;
+}
+
+.five .white{
+    background-color:#111111;
+    outline: 1px solid #ffffff28;
+    color: #a1a2a5;
+    border-radius: 0;
+    font-weight: 900;
+}
+
+.six {
+
+
+    background-image: url(tesla_files/Homepage-SolarPanels-01-Desktop);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    margin-top: 0;
+
+}
+.six .text{
+    margin-top: 0;
+}
+
+.six h1{
+    font-size: 49px;
+}
+.six .btn{
+    margin-top: 420px;
+}
+.seven {
+
+    background-image: url(tesla_files/Homepage-SolarRoof-Desktop-US.png);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    margin-top: 0;
+
+}
+.seven .text{
+    margin-top: 0;
+}
+.seven .btn{
+    margin-top: 420px;
+}
+.eight{
+    background-image: url(tesla_files/Homepage-Powerwall-Desktop-US.png);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    margin-top: 0;
+
+}
+.eight .text{
+    margin-top: 0;
+}
+.eight .btn{
+    margin-top: 450px;
+}
+
+.nine {
+
+    background-image: url(tesla_files/Homepage-Accessories-Desktop-US.png);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    margin-top: 0;
+
+}
+.nine .text{
+    margin-top: 0;
+}
+.nine .btn{
+    margin-top: 450px;
+}
+
+.footer p{
+ 
+    color: #d0d1d2;
+}
+.footer {
+    background-color: #000000;
+}
+
+.last {
+    padding-left: 380px;
+    padding-right: 380px;
+    padding-top: 30px;
+}
+.maintext {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 614px;
+}
+.footer p{
+    font-size: 12px;
+    text-align: center;
+    line-height: 18px;
+    font-weight: 700;
+}
+.cc {
+    background-color: #000000;
+    color: #d0d1d2;
+    padding-top: 50px;
+    display: flex;
+}
+.rr{
+    display: flex;
+    
+    padding-left: 430px;
+    margin-bottom: 30px;
+    
+}
+
+.cc a{
+    margin-left: 10px;
+    text-decoration: none;
+    font-size: 12px;
+    color: #d0d1d2;
+    
+}
